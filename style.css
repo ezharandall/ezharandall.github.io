@@ -1,11 +1,138 @@
-h1{
-	font-family: 'Ravi Prakash', cursive;
+/*
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+
+*/
+
+body {
+  padding: 0;
+  margin: 150px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #777777;
+  background: #ffffff;
+  
+
 }
 
-h2{
-	font-family: 'Inknut Antiqua', serif;
+header {
+  background: white;
+}
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 15px;
+  border-color: black;
+
 }
 
-h3{
-	font-family: 'Indie Flower', cursive;
+#leftHeader {
+  background-color: #4aaaa5;
+  color: #eee;
+  width: 244px;
+  float: left;
+  height: 88px;
+  border: 1px solid #eee;
+  padding: 20px;
+
+}
+aside {
+  background-color: #4aaaa5;
+  color: #eee;
+  width: 244px;
+  float: left;
+  height: 88px;
+  border: 1px solid #eee;
+  padding: 20px;
+
+}
+
+#rightHeader {
+  text-align: right;
+  background-color: white;
+  color: #777777;
+  width: 1322px;
+  height: 88px;
+  float: right;
+
+}
+
+.aboutMeBox{
+  clear: both;
+  overflow: auto;
+  background-color: white;
+  border-width: 4px;
+}
+
+.connections{
+  background-color: white;
+  border-width: 4px;
+  width: 262px;
+  height:197px;
+  color: #4aaaa5;
+}
+
+.contactBox {
+  float: left;
+  width: 544px;
+  height: 507px;
+
+}
+
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 55px;
+  background-color: #4aaaa5;
+  color: white;
+
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: #4aaaa5;
+}
+
+a {
+  color: #777777;
+  text-decoration: none;
+}
+
+
+
+.container {
+  width: 1024px;
+  margin: 150 auto;
+  border: 
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#message {
+  width: 492px;
+  height: 170px;
+  left: 364px;
+  right: 856px;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
 }
